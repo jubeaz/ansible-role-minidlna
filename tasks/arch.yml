@@ -1,0 +1,5 @@
+- name: Install minidlna
+  pacman:
+    name: minidlna
+    state: present
+    update_cache: true
